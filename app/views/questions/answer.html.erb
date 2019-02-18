@@ -1,2 +1,16 @@
 <h1>Questions#answer</h1>
 <p>Find me in app/views/questions/answer.html.erb</p>
+<p>Current time: <%= Time.now %></p>
+
+
+<p>
+<%= params[:question] %>
+<%= @answer %>
+</p>
+
+<p>
+<% link_to 'Ask another question', ask_path %>
+</p>
+
+
+<!-- displays the user's question as well as the answer of the coach-->
